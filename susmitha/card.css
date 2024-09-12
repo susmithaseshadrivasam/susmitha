@@ -1,0 +1,84 @@
+#cards{
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap:2px;
+    padding:40px;
+   
+}
+
+/* body{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+} */
+
+#card{
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items: start;
+    border: 2px black solid;  
+   
+}
+
+img{ 
+    width:100%;
+    height:250px;
+    object-fit: top;
+
+}
+
+#title{
+    font-size: 20px;
+    font-weight:30px;
+}
+
+/* #onwords{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items:end;
+ } */
+
+#money{
+    font-size: 17px;
+    font-style:italic;
+    font-weight: bold;
+}
+
+#delivery{
+    font-size: 18px ;
+    
+}
+
+#ratings{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: end;
+    gap:10px
+}
+
+#star{
+    background-color: rgb(6, 132, 6);
+    border-radius:30px;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    padding:5px 20px;
+}
+
+#price{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: end;
+    gap:7px 
+}
+
+#review{
+    font-size: 15px;
+    font-weight: bold;
+    color: rgb(57, 48, 48);
+}
